@@ -8,10 +8,8 @@ html {
 
 #banner {
     background-color: transparent !important;
-}
-
-.navbar {
-    background-color: transparent !important;
+    color: white;
+    padding: 1em;
 }
 
 .intro {
@@ -21,10 +19,18 @@ html {
     height: 150%;
 }
 
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
 .jumbotron {
     background-color: transparent !important;
     color: white;
-    padding-top: 20%;
+    padding-top: 10%;
     text-align: center;
 }
 

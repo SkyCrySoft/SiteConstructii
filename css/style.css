@@ -1,0 +1,88 @@
+body,
+html {
+    height: 100%;
+}
+
+
+/*HOME PAGE*/
+
+#banner {
+    background-color: transparent !important;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.intro {
+    background: url("../img/Intro.jpg")no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150%;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    color: white;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.card {
+    margin: 2% auto;
+    text-align: center;
+    border: none;
+}
+
+.infoCards {
+    background-color: #F7F7F7;
+}
+
+.infoContactCards {
+    background-color: #EEF0E4;
+}
+
+
+/*HOME PAGE*/
+
+
+/*SERCIVES PAGE*/
+
+.servicesIntro {
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+}
+
+.jumbotron p {
+    margin: 0;
+}
+
+
+/*SERCIVES PAGE*/
+
+
+/*ABOUT US PAGE*/
+
+.introAboutUs {
+    background: url("../img/aboutImage.jpg")no-repeat center center fixed;
+    height: 50%;
+}
+
+
+/*ABOUT US PAGE*/
+
+#AboutUs {
+    height: 75%;
+}
+
+#AboutUsImage {
+    background: url("../img/AboutUs.jpg")no-repeat center center fixed;
+    height: 60%;
+}
+
+#AboutUsText {
+    text-align: center;
+}

@@ -23,7 +23,7 @@ html {
     background-color: transparent !important;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
 }
 
@@ -91,4 +91,13 @@ html {
 
 #AboutUsText {
     text-align: center;
+}
+
+
+/*Media for modifying tags at different resolutions*/
+
+@media screen and (max-width: 800px) {
+    .display-4 {
+        font-size: 250%;
+    }
 }

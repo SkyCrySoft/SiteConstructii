@@ -56,6 +56,7 @@ html {
     margin: 2% auto;
     text-align: center;
     border: none;
+    position: normal;
 }
 
 .infoCards {
@@ -97,7 +98,7 @@ html {
 
 /*ABOUT US*/
 #AboutUs {
-    height: 75%;
+    min-height: 75%;
 }
 
 #AboutUsImage {

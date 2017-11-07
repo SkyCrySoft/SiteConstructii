@@ -7,10 +7,10 @@ html {
 /*HOME PAGE*/
 
 .navbar-toggler {
-    border:none;
+    border: none;
 }
 
-.fa-bars{
+.fa-bars {
     color: white;
 }
 
@@ -36,7 +36,7 @@ html {
     padding: 0 2em;
 }
 
-.nav-item a{
+.nav-item a {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -64,6 +64,33 @@ html {
 
 .infoContactCards {
     background-color: #EEF0E4;
+}
+
+#Contact {
+    min-height: 20%;
+    max-height: 40%;
+    background-color: green;
+    display: flex;
+}
+
+#ContactTitle {
+    width: 40%;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    float: left;
+    background-color: blue;
+    opacity: 0.5;
+}
+
+#ContactContent {
+    width: 60%;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    float: left;
+    background-color: red;
+    opacity: 0.5;
 }
 
 
@@ -121,6 +148,23 @@ html {
 @media screen and (max-width: 800px) {
     .display-4 {
         font-size: 250%;
+    }
+    #Contact {
+        display: block;
+    }
+    #ContactTitle {
+        float: none;
+        clear: both;
+        position: normal;
+        width: 100%;
+        height: 40%;
+    }
+    #ContactContent {
+        float: none;
+        clear: both;
+        position: normal;
+        height: 60%;
+        width: 100%;
     }
 }
 

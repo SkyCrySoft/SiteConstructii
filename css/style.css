@@ -66,34 +66,6 @@ html {
     background-color: #EEF0E4;
 }
 
-#Contact {
-    min-height: 20%;
-    max-height: 40%;
-    background-color: green;
-    display: flex;
-}
-
-#ContactTitle {
-    width: 40%;
-    min-height: 100%;
-    max-height: 100%;
-    position: relative;
-    float: left;
-    background-color: blue;
-    opacity: 0.5;
-}
-
-#ContactContent {
-    width: 60%;
-    min-height: 100%;
-    max-height: 100%;
-    position: relative;
-    float: left;
-    background-color: red;
-    opacity: 0.5;
-}
-
-
 /*HOME PAGE*/
 
 
@@ -139,7 +111,32 @@ html {
 /*ABOUT US*/
 
 /*CONTACT*/
+#Contact {
+    min-height: 20%;
+    max-height: 40%;
+    background-color: green;
+    display: flex;
+}
 
+#ContactTitle {
+    width: 40%;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    float: left;
+    background-color: blue;
+    opacity: 0.5;
+}
+
+#ContactContent {
+    width: 60%;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    float: left;
+    background-color: red;
+    opacity: 0.5;
+}
 /*CONTACT*/
 
 

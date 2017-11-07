@@ -100,16 +100,18 @@ html {
     .display-4 {
         font-size: 250%;
     }
+    figure {
+        margin: 10px auto;
+    }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 figure {
     font-family: 'Oswald', Arial, sans-serif;
     position: relative;
-    float: left;
-    margin: 10px 1%;
     min-width: 230px;
     max-width: 315px;
+    margin: 10px auto;
     width: 100%;
     background: #ffffff;
     text-align: center;

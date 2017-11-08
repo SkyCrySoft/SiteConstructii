@@ -115,8 +115,9 @@ html {
 #Contact {
     min-height: 20%;
     max-height: 40%;
-    background-color: green;
     display: flex;
+
+    background: url("../img/ContactBackground.jpg");
 }
 
 #ContactTitle {
@@ -125,6 +126,7 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
+
     background-color: blue;
     opacity: 0.5;
 }
@@ -135,9 +137,18 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
+
     background-color: red;
     opacity: 0.5;
 }
+
+#ContactTitleColor {
+    color: white; 
+    /*opacity: 0.99;*/
+    text-align: center;
+    padding-top: 1%;
+}
+.ContactContentColor {color:white; /*opacity: 0.99;*/}
 /*CONTACT*/
 
 

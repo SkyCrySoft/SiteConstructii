@@ -16,16 +16,9 @@
     <!-- INTRO -->
     <div class="intro">
 
-        <!-- BANNER -->
-        <div id="banner">
-            <div id="logo">
-                <i class="fa fa-fire fa-3x" aria-hidden="true">FIRMA</i>
-            </div>
-        </div>
-        <!-- BANNER -->
-
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#"><i class="fa fa-fire" aria-hidden="true">FIRMA</i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars" aria-hidden="true"></i>
 
@@ -135,14 +128,27 @@
     <div id="Contact">
 
         <div id="ContactTitle">
-            <h3 id="ContactTitleColor">Trimite-ne un email! lorem</h3>
+            <h3 id="ContactTitleColor">Trimite-ne un email!</h3>
         </div>
 
         <div id="ContactContent">
-            <p class="ContactContentColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fuga.</p>
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Subject">
+            <!-- <p class="ContactContentColor"></p> -->
+            
+            <form>
+              <div class="form-group">
+
+                <input type="text" class="form-control" id="InputName" placeholder="Name">
+                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                <input type="text" class="form-control" id="InputSubject" placeholder="Subject">
+                <label class="ContactContentColor">Your Message: </label>
+                <textarea class="form-control" id="InputMessage" placeholder="Message"> </textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+
         </div>
 
     </div>

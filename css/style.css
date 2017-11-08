@@ -10,10 +10,6 @@ html {
     border: none;
 }
 
-.fa-bars {
-    color: white;
-}
-
 #banner {
     background-color: transparent !important;
     color: white;
@@ -28,9 +24,6 @@ html {
     height: 150%;
 }
 
-.navbar {
-    background-color: transparent !important;
-}
 
 .nav-item {
     padding: 0 2em;
@@ -41,7 +34,6 @@ html {
 }
 
 .nav-link {
-    color: white !important;
     font-size: 1.5em;
 }
 
@@ -73,10 +65,6 @@ html {
 
 /*SERCIVES PAGE*/
 
-.servicesIntro {
-    text-align: center;
-}
-
 .navbar {
     position: sticky;
 }
@@ -85,9 +73,14 @@ html {
     margin: 0;
 }
 
+#servicesRow{
+}
 
 /*SERCIVES PAGE*/
-
+#bodyServices {
+    background: url("../img/ServiciiBackground.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
 
 /*ABOUT US PAGE*/
 
@@ -103,6 +96,8 @@ html {
     min-height: 75%;
     background-color: #1874CD;
     color: white;
+    box-sizing: border-box;
+    padding: 1px;
 }
 
 #AboutUsImage {
@@ -134,7 +129,7 @@ html {
     position: relative;
     float: left;
     background-color: blue;
-    opacity: 0.5;
+    background: rgba(0, 33, 255, .5);
 }
 
 #ContactContent {
@@ -143,21 +138,25 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    background-color: red;
-    opacity: 0.5;
+    background: rgba(33, 51, 163, .5);
 }
 
 #ContactTitleColor {
     color: white;
-    /*opacity: 0.99;*/
     text-align: center;
-    padding-top: 1%;
 }
 
 .ContactContentColor {
     color: white;
-    /*opacity: 0.99;*/
 }
+
+#InputName,
+#InputEmail,
+#InputSubject
+{
+    margin: 2px;
+}
+
 
 
 /*CONTACT*/

@@ -99,10 +99,13 @@ html {
 /*ABOUT US*/
 #AboutUs {
     min-height: 75%;
+    background-color: #1874CD;
+    color: white;
 }
 
 #AboutUsImage {
     background: url("../img/AboutUs.jpg")no-repeat center center fixed;
+    background-size: cover;
     height: 60%;
 }
 

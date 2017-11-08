@@ -24,7 +24,6 @@ html {
     height: 150%;
 }
 
-
 .nav-item {
     padding: 0 2em;
 }
@@ -73,14 +72,20 @@ html {
     margin: 0;
 }
 
-#servicesRow{
+.center-vertically {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
+
 /*SERCIVES PAGE*/
+
 #bodyServices {
     background: url("../img/ServiciiBackground.jpg")no-repeat center center fixed;
     background-size: cover;
 }
+
 
 /*ABOUT US PAGE*/
 
@@ -152,11 +157,9 @@ html {
 
 #InputName,
 #InputEmail,
-#InputSubject
-{
+#InputSubject {
     margin: 2px;
 }
-
 
 
 /*CONTACT*/
@@ -186,6 +189,11 @@ html {
         min-height: 60%;
         width: 100%;
         overflow: hidden;
+    }
+    .center-vertically {
+        position: normal;
+        top: 0;
+        transform: translateY(0);
     }
 }
 

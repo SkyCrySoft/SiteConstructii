@@ -67,6 +67,7 @@ html {
     background-color: #EEF0E4;
 }
 
+
 /*HOME PAGE*/
 
 
@@ -97,6 +98,7 @@ html {
 
 
 /*ABOUT US*/
+
 #AboutUs {
     min-height: 75%;
 }
@@ -109,14 +111,16 @@ html {
 #AboutUsText {
     text-align: center;
 }
+
+
 /*ABOUT US*/
 
+
 /*CONTACT*/
+
 #Contact {
     min-height: 20%;
-    max-height: 40%;
     display: flex;
-
     background: url("../img/ContactBackground.jpg");
 }
 
@@ -126,7 +130,6 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-
     background-color: blue;
     opacity: 0.5;
 }
@@ -137,18 +140,23 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-
     background-color: red;
     opacity: 0.5;
 }
 
 #ContactTitleColor {
-    color: white; 
+    color: white;
     /*opacity: 0.99;*/
     text-align: center;
     padding-top: 1%;
 }
-.ContactContentColor {color:white; /*opacity: 0.99;*/}
+
+.ContactContentColor {
+    color: white;
+    /*opacity: 0.99;*/
+}
+
+
 /*CONTACT*/
 
 
@@ -166,14 +174,16 @@ html {
         clear: both;
         position: normal;
         width: 100%;
-        height: 40%;
+        min-height: 40%;
+        overflow: hidden;
     }
     #ContactContent {
         float: none;
         clear: both;
         position: normal;
-        height: 60%;
+        min-height: 60%;
         width: 100%;
+        overflow: hidden;
     }
 }
 

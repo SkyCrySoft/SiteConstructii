@@ -98,23 +98,32 @@ html {
 /*ABOUT US*/
 
 #AboutUs {
-    min-height: 75%;
+    min-height: 50%;
+}
+
+#AboutUsContent {
+    height: 100%;
+    width: 50%;
     background-color: #1874CD;
     color: white;
-    box-sizing: border-box;
-    padding: 1px;
 }
 
 #AboutUsImage {
-    background: url("../img/AboutUs.jpg")no-repeat center center fixed;
+    background: url("../img/AboutUsImg.jpg")no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    min-height: 30%;
+}
+
+#BottomImg {
+    background: url("../img/BottomImg.jpg")no-repeat center center fixed;
     background-size: cover;
     height: 60%;
 }
 
-#AboutUsTitle{
+#AboutUsTitle {
     text-align: center;
     font-size: 4em;
-
 }
 
 #AboutUsText {
@@ -202,6 +211,14 @@ html {
         position: normal;
         top: 0;
         transform: translateY(0);
+    }
+    #AboutUs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #AboutUsContent,
+    #AboutUsImage {
+        width: 100%;
     }
 }
 

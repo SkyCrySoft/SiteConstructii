@@ -85,7 +85,6 @@ html {
     background-size: cover;
 }
 
-
 .introAboutUs {
     background: url("../img/aboutImage.jpg")no-repeat center center fixed;
     height: 50%;
@@ -95,10 +94,6 @@ html {
 /*ABOUT US*/
 
 #AboutUs {
-<<<<<<< HEAD
-    min-height: 75%;
-    background-color: #73599D;
-=======
     display: flex;
 }
 
@@ -106,7 +101,6 @@ html {
     height: 100%;
     width: 50%;
     background-color: #1874CD;
->>>>>>> 9a8a9b01afddd1c1abe2fafee7707a8fde228e7e
     color: white;
 }
 

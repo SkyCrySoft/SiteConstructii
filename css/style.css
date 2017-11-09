@@ -111,6 +111,12 @@ html {
     height: 60%;
 }
 
+#AboutUsTitle{
+    text-align: center;
+    font-size: 4em;
+
+}
+
 #AboutUsText {
     text-align: center;
 }
@@ -134,7 +140,7 @@ html {
     position: relative;
     float: left;
     background-color: blue;
-    background: rgba(0, 33, 255, .5);
+    background: rgba(0, 33, 255, .75);
 }
 
 #ContactContent {
@@ -143,12 +149,14 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    background: rgba(33, 51, 163, .5);
+    background: rgba(33, 51, 163, .75);
 }
 
 #ContactTitleColor {
     color: white;
     text-align: center;
+    position: relative;
+    top: 40%;
 }
 
 .ContactContentColor {

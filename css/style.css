@@ -43,12 +43,18 @@ html {
     position: normal;
 }
 
+.cardHover:hover {
+    background-color: #212529;
+    color: white;
+}
+
 .infoCards {
     background-color: #F7F7F7;
 }
 
 .infoContactCards {
-    background-color: #EEF0E4;
+    background-color: #12335B;
+    color: white;
 }
 
 
@@ -80,8 +86,6 @@ html {
 }
 
 
-/*ABOUT US PAGE*/
-
 .introAboutUs {
     background: url("../img/aboutImage.jpg")no-repeat center center fixed;
     height: 50%;
@@ -92,7 +96,7 @@ html {
 
 #AboutUs {
     min-height: 75%;
-    background-color: #1874CD;
+    background-color: #73599D;
     color: white;
     box-sizing: border-box;
     padding: 1px;

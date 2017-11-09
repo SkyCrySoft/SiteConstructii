@@ -95,8 +95,11 @@ html {
 /*ABOUT US*/
 
 #AboutUs {
+<<<<<<< HEAD
     min-height: 75%;
     background-color: #73599D;
+=======
+>>>>>>> 9a8a9b01afddd1c1abe2fafee7707a8fde228e7e
     color: white;
     box-sizing: border-box;
     padding: 1px;

@@ -10,14 +10,7 @@ html {
     border: none;
 }
 
-#banner {
-    background-color: transparent !important;
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-.intro {
+#intro {
     background: url("../img/Intro.jpg")no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
@@ -139,7 +132,8 @@ html {
 #Contact {
     min-height: 20%;
     display: flex;
-    background: url("../img/ContactBackground.jpg");
+    /*background: url("../img/ContactBackground.jpg")no-repeat center center;
+    background-size: cover;*/
 }
 
 #ContactTitle {
@@ -148,8 +142,8 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    background-color: blue;
-    background: rgba(0, 33, 255, .75);
+    /*background-color: blue;*/
+    /*background: rgba(0, 33, 255, .75);*/
 }
 
 #ContactContent {
@@ -158,18 +152,17 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    background: rgba(33, 51, 163, .75);
+    /*background: rgba(33, 51, 163, .75);*/
 }
 
 #ContactTitleColor {
-    color: white;
     text-align: center;
     position: relative;
     top: 40%;
 }
 
 .ContactContentColor {
-    color: white;
+
 }
 
 #InputName,

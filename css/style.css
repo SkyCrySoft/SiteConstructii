@@ -210,14 +210,10 @@ html {
     }
     #AboutUsContent,
     #AboutUsImage {
-        width: auto;
-        height: 50%;
+        width: 100%;
     }
-    #AboutUsImage {
-        max-width: 100%;
-        vertical-align: top;
-        position: relative;
-        padding: 50%;
+    #AboutUsImage div {
+        padding: 60%;
     }
 }
 

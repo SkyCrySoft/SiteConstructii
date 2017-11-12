@@ -77,8 +77,6 @@ html {
     transform: translateY(-50%);
 }
 
-
-
 #bodyServices {
     background: url("../img/ServiciiBackground.jpg")no-repeat center center fixed;
     background-size: cover;
@@ -173,14 +171,13 @@ html {
 
 /*CONTACT*/
 
+
 /*INTERIORS*/
 
-#bodyInteriors{
+#bodyInteriors {
     background: url("../img/Interiors.jpg")no-repeat center center fixed;
     background-size: cover;
 }
-
-
 
 
 /*Media for modifying tags at different resolutions*/

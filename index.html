@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link buttonHome" href="Home.html">Acasa</a>
+                        <a class="nav-link buttonHome" href="index.html">Acasa</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="Services.html">Servicii</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#AboutUs">Despre noi</a>
+                        <a class="nav-link" href="index.html#AboutUs">Despre noi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#Contact">Contact</a>
+                        <a class="nav-link" href="index.html#Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -136,23 +136,20 @@
 
         <div id="ContactContent">
             <!-- <p class="ContactContentColor"></p> -->
+            <form action="mail_handler.php" method="post" name="form" class="form-box">
 
-            <form>
-                <div class="form-group">
-
-                    <input type="text" class="form-control" id="InputName" placeholder="Name">
-                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-                    <input type="text" class="form-control" id="InputSubject" placeholder="Subject">
-                    <label class="ContactContentColor">Mesajul Tau: </label>
-                    <textarea class="form-control" id="InputMessage" placeholder="Message"> </textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="text" name="name" class="form-control" id="InputName" placeholder="Name">
+                <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email">
+                <input type="tel" name="phone" class="form-control" id="InputPhone" placeholder="Phone">
+                <label class="ContactContentColor">Mesajul Tau: </label>
+                <textarea class="form-control" name="msg" id="InputMessage" placeholder="Message"> </textarea>
+                <button type="submit" name="submit" value="Send" class="btn btn-primary">Submit</button>
             </form>
-
-
-
         </div>
+
+
+
+    </div>
 
     </div>
     <!-- CONTACT -->

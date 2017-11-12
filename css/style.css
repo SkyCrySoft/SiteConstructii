@@ -78,7 +78,6 @@ html {
 }
 
 
-/*SERCIVES PAGE*/
 
 #bodyServices {
     background: url("../img/ServiciiBackground.jpg")no-repeat center center fixed;
@@ -173,6 +172,15 @@ html {
 
 
 /*CONTACT*/
+
+/*INTERIORS*/
+
+#bodyInteriors{
+    background: url("../img/Interiors.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+
 
 
 /*Media for modifying tags at different resolutions*/

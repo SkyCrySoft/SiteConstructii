@@ -1,3 +1,7 @@
+@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
+@import url("google-fonts.css");
+@import url("ionicons.min.css");
 body,
 html {
     height: 100%;

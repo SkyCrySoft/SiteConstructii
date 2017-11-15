@@ -47,11 +47,6 @@ html {
     position: normal;
 }
 
-.cardHover:hover {
-    background-color: #212529;
-    color: white;
-}
-
 .infoCards {
     background-color: #F7F7F7;
 }
@@ -101,7 +96,7 @@ html {
 #AboutUsContent {
     height: 100%;
     width: 50%;
-    background-color: #1874CD;
+    background-color: #12335B;
     color: white;
 }
 

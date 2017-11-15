@@ -37,10 +37,6 @@ html {
     text-align: center;
 }
 
-.subtitle {
-    font-size: 2em;
-}
-
 .card {
     margin: 2% auto;
     text-align: center;
@@ -102,6 +98,7 @@ html {
 }
 
 #AboutUsImage {
+    margin: 0;
     background: url("../img/AboutUsImg.jpg")no-repeat center center;
     background-size: cover;
     width: 50%;
@@ -132,8 +129,6 @@ html {
 #Contact {
     min-height: 20%;
     display: flex;
-    /*background: url("../img/ContactBackground.jpg")no-repeat center center;
-    background-size: cover;*/
 }
 
 #ContactTitle {
@@ -142,8 +137,6 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    /*background-color: blue;*/
-    /*background: rgba(0, 33, 255, .75);*/
 }
 
 #ContactContent {
@@ -184,6 +177,10 @@ html {
 /*Media for modifying tags at different resolutions*/
 
 @media screen and (max-width: 800px) {
+    body,
+    html {
+        overflow-x: visible;
+    }
     .display-4 {
         font-size: 250%;
     }
@@ -219,7 +216,7 @@ html {
         width: 100%;
     }
     #AboutUsImage div {
-        padding: 60%;
+        padding-top: 60%;
     }
 }
 
@@ -319,4 +316,9 @@ figure.hover img {
 figure:hover i,
 figure.hover i {
     transform: translate(-50%, 5px);
+}
+
+.no-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }

@@ -1,0 +1,17 @@
+# HTID3301620 DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID3301620
+IfModule mod_headers.c
+  FilesMatch .(jscssxmlgzhtml)$
+    Header append Vary Accept-Encoding
+  FilesMatch
+IfModule
+
+# One month for image files
+filesMatch .(jpgjpegpnggifico)$
+Header set Cache-Control max-age=2628000, public
+filesMatch
+# One week for css and js
+filesMatch .(cssjs)$
+Header set Cache-Control max-age=604800, public
+filesMatch

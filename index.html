@@ -60,7 +60,7 @@
         <div class="container">
             <div class="jumbotron">
                 <h1 class="display-4">Visele tale se indeplinesc cu ajutorul nostru</h1>
-                <p class="lead">Arunca o privire asupra ofertelor noastre:</p>
+                <p class="lead subtitle">Arunca o privire asupra ofertelor noastre:</p>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="Services.html" role="button">Oferte!</a>
                 </p>
@@ -123,8 +123,7 @@
                 a diam. Nullam eget purus vehicula, pulvinar sem a, pretium odio. Duis tempus eros ut velit vehicula convallis. Curabitur arcu velit, venenatis eget ultrices sit amet, dignissim eget elit. Sed et mauris augue. Vivamus laoreet mauris sit
                 amet dolor lobortis, pretium varius quam hendrerit. Quisque pulvinar finibus justo. Nullam venenatis, felis at scelerisque consequat, ante lorem tristique nulla, in lacinia dolor ex quis nunc. Nam dictum sollicitudin felis. Sed ac nisi
                 nibh. Vestibulum neque magna, pretium quis massa id, bibendum cursus velit. Aliquam a nisi mauris. Etiam ligula lorem, gravida nec commodo vel, lacinia id nisi. Vestibulum consequat nisl consectetur odio vestibulum congue. Nunc at elementum
-                nunc. Donec id ipsum et sem feugiat blandit. Suspendisse finibus, ipsum a porta rutrum, mi metus mattis quam, non bibendum nisl lectus eget libero. Aenean nisi sem, mattis ultricies nibh eget, finibus aliquam enim. Fusce et sem pellentesque
-                nulla mollis eleifend. Curabitur nec nisl elit. Sed vel interdum odio. Mauris sollicitudin mauris a nunc varius imperdiet a a metus. </p>
+                nunc.</p>
         </div>
 
         <div id="AboutUsImage">
@@ -146,12 +145,15 @@
 
         <div id="ContactContent">
             <form action="mail_handler.php" method="post" name="form" class="form-box">
-                <input type="text" name="name" class="form-control" id="InputName" placeholder="Name">
-                <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email">
-                <input type="tel" name="phone" class="form-control" id="InputPhone" placeholder="Phone">
+                <label for="name">Numele complet:</label><br>
+                <input type="text" name="name" class="form-control" id="InputName" required>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" class="form-control" id="InputEmail" required>
+                <label for="phone">Numar de telefon:</label><br>
+                <input type="tel" name="phone" class="form-control" id="InputPhone" required>
                 <label class="ContactContentColor">Mesajul Tau: </label>
-                <textarea class="form-control" name="msg" id="InputMessage" placeholder="Message"> </textarea>
-                <button type="submit" name="submit" value="Send" class="btn btn-primary">Submit</button>
+                <textarea class="form-control" name="msg" id="InputMessage" placeholder="Message" required> </textarea>
+                <button type="submit" name="submit" value="Send" class="btn btn-primary">Trimite</button>
             </form>
         </div>
     </div>
@@ -182,7 +184,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
             <div class="card infoContactCards" style="width: 15rem;">
                 <div class="card-body">
-                    <h4 class="card-title"> <i class="fa fa-clock-o" aria-hidden="true"></i> SUNTEM DESCHISI INTRE </h4>
+                    <h4 class="card-title"> <i class="fa fa-clock-o" aria-hidden="true"></i>  </h4>
                     <p class="card-text"> Orele: 8:00 am & 10:00 pm </p>
                 </div>
             </div>

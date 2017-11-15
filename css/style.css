@@ -40,6 +40,10 @@ html {
     text-align: center;
 }
 
+.subtitle {
+    font-size: 2em;
+}
+
 .card {
     margin: 2% auto;
     text-align: center;
@@ -115,6 +119,7 @@ html {
 #AboutUsTitle {
     text-align: center;
     font-size: 4em;
+    border-bottom: 0.25em solid white;
 }
 
 #AboutUsText {
@@ -150,7 +155,7 @@ html {
     max-height: 100%;
     position: relative;
     float: left;
-    /*background: rgba(33, 51, 163, .75);*/
+    text-align: center
 }
 
 #ContactTitleColor {

@@ -7,7 +7,14 @@
 
 		$to='info@g4by.ga'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
-		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		if( isset($_POST['work']))
+		{
+			$message="Name :".$name."\n"."Phone :".$phone."\n"."Work: ".$_POST['work']."\n"."Wrote the following :"."\n\n".$msg;
+		}
+		else
+		{
+			$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		}
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
